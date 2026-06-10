@@ -61,7 +61,13 @@ This repository includes a devcontainer configuration in `.devcontainer/` for Co
 
 - Open the repo in GitHub Codespaces and the container will build automatically.
 - The devcontainer installs Docker CLI and Compose so you can start the lab from within Codespaces.
-- Run:
+- Launch directly using:
+
+```text
+https://github.com/codespaces/new?repo=datawastheusualsuspect/Compliance-Validation-Lab
+```
+
+- Then run:
 
 ```bash
 cd docker_lab
