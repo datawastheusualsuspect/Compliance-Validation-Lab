@@ -1,0 +1,16 @@
+{
+  "name": "DoD Cybersecurity Compliance Validation Lab",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers"
+  ],
+  "postCreateCommand": "cd docker_lab && ./build_images.sh",
+  "remoteUser": "vscode"
+}
