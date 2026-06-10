@@ -74,6 +74,12 @@ cd docker_lab
 docker compose up -d
 ```
 
+- If `docker compose` is unavailable, try the legacy command:
+
+```bash
+docker-compose up -d
+```
+
 Limitations:
 - Codespaces does not always provide a full local Docker daemon. If Docker is unavailable, you may need to use a Codespaces machine with Docker support or run locally instead.
 - Linux-style mounts like `/proc`, `/sys`, and `/var/run/docker.sock` work best in containers with Docker support enabled.
