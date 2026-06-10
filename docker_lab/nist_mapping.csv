@@ -1,0 +1,8 @@
+Service,Primary Controls (NIST 800-53 families),Notes
+Samba AD,AC (Access Control);IA (Identification & Authentication);AU (Audit & Accountability),Provide centralized identity, group-based RBAC, and MFA integration.
+DNS (dnsmasq),SC (System & Communications Protection);CM (Configuration Management),Authoritative internal DNS, log queries to ELK, secure zone transfers.
+Web (httpd),SC;SI (System & Info Integrity);CM,Hardened web servers in DMZ, separate from internal networks.
+Secure Gateway (nginx),SC;AU;IR (Incident Response),SSL termination, request logging forwarded to ELK, WAF rules.
+Mail (MailHog),AU;SI;IR,SMTP capture for testing; production mail servers require DLP and encryption.
+ELK (logging),AU;CM;SI;CA (Security Assessment),Central log aggregation and monitoring for continuous monitoring workflows.
+Client (ubuntu),CM;SI;AC,Endpoint hardening, EDR agent placeholder, patching and configuration management.

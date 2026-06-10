@@ -1,0 +1,31 @@
+Blue Stripe Tech DoD IT Security Compliance Report
+
+Blue Stripe Tech’s new Air Force Cyber Security Center (AFCSC) contract requires a rapid transition to DoD-compliant policies, standards, and controls across the company’s hybrid IT environment. The firm’s infrastructure includes 12 Microsoft Server systems supporting Active Directory, DNS, DHCP, ERP, Exchange, email filtering, and a segregated R&D network segment; two Linux Apache web servers; and 400 Windows 10 endpoints with Microsoft 365 productivity tools. For DoD delivery, Blue Stripe Tech must adopt DoD-specific cybersecurity requirements and relevant U.S. federal compliance laws to protect controlled unclassified information (CUI) and ensure mission assurance.
+
+DoD contract compliance will require implementing the Risk Management Framework (RMF) under DoDI 8510.01, which defines system categorization, security control selection, assessment, authorization (authorization to operate — ATO), and continuous monitoring (DoD, 2019). The firm must also align with DoDI 8500.01 for cybersecurity policy, DoDI 8170.01 for internet services and internet-based capabilities, and DoDM 5200.01 for information security program management (DoD, 2020). In addition, the organization must satisfy contractual requirements in the Defense Federal Acquisition Regulation Supplement (DFARS) 252.204-7012 for handling CUI and cyber incident reporting, and Federal Acquisition Regulation (FAR) clause 52.204-21 for basic safeguarding of contractor information systems. Blue Stripe Tech should prepare for Cybersecurity Maturity Model Certification (CMMC) assessment, using CMMC practices mapped to NIST SP 800-171 controls for protecting CUI.
+
+For Blue Stripe Tech’s IT infrastructure, the control set should include access control, identification and authentication, system and communications protection, configuration management, incident response, risk assessment, and continuous monitoring. Active Directory must enforce least privilege and multifactor authentication for privileged accounts; DNS/DHCP services need secure configuration and monitoring; Exchange and email filter systems require advanced threat protection, data loss prevention, and email encryption; Linux web servers must be hardened and segmented from internal networks; endpoints need endpoint detection and response (EDR) and regular patching. The cloud-based secure web gateway provides a necessary perimeter control layer, but must be integrated with DoD-approved logging and threat intelligence feeds to satisfy DoD continuous monitoring requirements.
+
+U.S. compliance laws affecting the firm include the Federal Information Security Modernization Act (FISMA) for federal information systems, the Privacy Act for handling personally identifiable information (PII), and potentially HIPAA if the company processes health-related data in support of any mission. These laws reinforce the need for documented policies, defined roles and responsibilities, incident reporting procedures, and regular security training. Blue Stripe Tech should document policies for security governance, acceptable use, configuration management, and incident response that explicitly reference DoD and federal requirements and map each policy to RMF control families.
+
+In summary, Blue Stripe Tech must establish DoD-approved IT security policies and controls that satisfy DoDI 8510.01, DoDI 8500.01, DoDI 8170.01, DoDM 5200.01, DFARS 252.204-7012, FAR 52.204-21, NIST SP 800-171 and, where applicable for federal systems, NIST SP 800-53 control baselines, and CMMC. These requirements should be applied across AD, DNS, DHCP, ERP, Exchange, email filtering, secure web gateway, web hosting, and endpoint systems to protect DoD data, maintain system authorization, and support the AFCSC contract.
+
+References
+
+DoD. (2019). Risk Management Framework for DoD Information Technology. https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/851001p.pdf
+
+DoD. (2020). Department of Defense Information Security Program. https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/520001m_vol1.pdf
+
+Whitman, M. E., & Mattord, H. J. (2026). Management of Cybersecurity (7th ed.).
+
+
+Additional Sections
+
+RMF Implementation Plan (brief):
+Adopt RMF steps across system life cycles: categorize systems, select and tailor security controls, implement and document controls, assess control effectiveness, obtain authorization (ATO) from the designated Authorizing Official, and perform continuous monitoring. Prioritize critical systems (AD, Exchange, ERP) for initial ATO packages and leverage automated assessment tools and baselines to accelerate control assessment and evidence collection.
+
+ATO Process (brief):
+Prepare and submit an ATO package including system security plan (SSP), security assessment plan (SAP), assessment results (SAR), plan of action and milestones (POA&M), and supporting artifacts (configurations, patch records, test results). Coordinate with the Authorizing Official to define residual risks and formalize the ATO decision; maintain authorization with continuous monitoring and timely remediation tracked in the POA&M.
+
+NIST SP 800-53 Mapping (brief):
+Map applicable NIST SP 800-53 control families (access control, audit and accountability, configuration management, incident response, risk assessment, system and communications protection, and continuous monitoring) to deployed services. For contractor systems that handle CUI, map NIST SP 800-171 requirements back to 800-53 baselines where applicable and document control ownership, implementation evidence, and monitoring methods.

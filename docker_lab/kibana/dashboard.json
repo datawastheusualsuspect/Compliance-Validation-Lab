@@ -1,0 +1,7 @@
+{
+  "dashboard": {
+    "title": "Blue Stripe Basic Logs",
+    "panels": [],
+    "description": "Placeholder dashboard for nginx/apache logs. Import via Kibana UI."
+  }
+}

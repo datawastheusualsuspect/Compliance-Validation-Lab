@@ -1,0 +1,15 @@
+# Log files
+**/logs
+**/*.log
+
+# Docker
+*.pid
+*.tmp
+docker-compose.override.yml
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
