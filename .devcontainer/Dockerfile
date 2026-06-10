@@ -4,7 +4,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     curl \
     docker-cli \
-    docker-compose-plugin \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Docker Compose v2
