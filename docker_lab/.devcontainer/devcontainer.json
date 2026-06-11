@@ -1,0 +1,13 @@
+{
+  "name": "DoD Docker Lab (docker-compose)",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "client",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+  "shutdownAction": "stopCompose",
+  "extensions": [
+    "ms-azuretools.vscode-docker"
+  ],
+  "forwardPorts": [8080,3000,9090,5601,9200,8443,1025,8025],
+  "postCreateCommand": "apt-get update && apt-get install -y git curl vim less iproute2 iputils-ping && rm -rf /var/lib/apt/lists/*"
+}
