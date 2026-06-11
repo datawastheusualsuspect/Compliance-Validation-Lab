@@ -13,3 +13,6 @@ docker-compose.override.yml
 # Python
 __pycache__/
 *.pyc
+
+# Local instructions file
+instructions.md

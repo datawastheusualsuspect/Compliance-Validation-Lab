@@ -141,7 +141,9 @@ services:
       - management
 
   client:
-    image: ubuntu:22.04
+    build:
+      context: ./client
+      dockerfile: Dockerfile
     container_name: client
     networks:
       - internal
